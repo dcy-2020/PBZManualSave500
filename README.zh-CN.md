@@ -9,12 +9,12 @@
 - 存档计数显示 `/500`，超过 20 个后仍可新建手动档。
 - 随 PBZModLoader 自动加载，以后正常启动游戏即可。
 - 轻量 JavaScript Mod，玩家无需另开脚本，也无需安装 Node.js 或 Python。
-- **已在游戏内实测 27 个手动存档，正常使用。**测试反馈日期：2026-11-12；Steam build 26367565，PBZModLoader 2.1.0。
+- **已在游戏内实测 27 个手动存档，正常使用。**测试反馈日期：2026-11-12。
 
 ## 安装
 
 1. 退出游戏，完整备份存档文件夹。Steam 版通常位于 `<游戏目录>/ProjectPBZ/Saved/SaveGames/Steam/<账号文件夹>/`。
-2. 按原作者说明安装 [PBZModLoader 2.1.0](https://github.com/KintaroModding/phantombladezero_pbzmodloader/releases/tag/v2.1.0)。加载器需要单独下载。
+2. 按原作者说明安装 [PBZModLoader](https://github.com/zoneoflkf/PBZModLoader)。加载器需要单独下载。
 3. 在 [GitHub Releases](https://github.com/dcy-2020/PBZManualSave500/releases) 或 [N 网 Files 页面](https://www.nexusmods.com/phantombladezero/mods/1080?tab=files)下载 `PBZ-Manual-Save-500-v1.0.0.zip`，解压到含有 `ProjectPBZ` 文件夹的游戏根目录。
 4. 确认文件路径如下，然后正常启动游戏：
 
@@ -38,7 +38,7 @@ Mod 在首次打开存档界面前，将 `SaveGameInterface.prototype.getManualS
 
 ## 兼容与反馈
 
-面向 Steam PC 版和 PBZModLoader 2.1.0。游戏更新或其他 Mod 修改同一个容量函数时，兼容检查可能阻止本 Mod 应用；可在 `ProjectPBZ/PBZModLoader/loader.log` 中搜索 `PBZManualSave500`。
+面向 Steam PC 版和 PBZModLoader。游戏更新或其他 Mod 修改同一个容量函数时，兼容检查可能阻止本 Mod 应用；可在加载器日志中搜索 `PBZManualSave500`，日志位置见加载器说明。
 
 只安装一份。如果自定义 `mods.ini` 禁用了本 Mod，请按加载器说明启用 `PBZManualSave500`。问题可在本 Mod 的 N 网页面 Posts（评论）区反馈，注明游戏 build 和加载器版本，避免在公开反馈中附带私人存档或账号信息。
 
@@ -46,4 +46,4 @@ Mod 在首次打开存档界面前，将 `SaveGameInterface.prototype.getManualS
 
 作者：[dcy2020](https://www.nexusmods.com/profile/dcy2020)。代码与文档使用生成式 AI 开发，作者已进行游戏内测试。包内 `main.js` 即完整 Mod 源码，采用 [MIT 许可](LICENSE)。
 
-依赖由 LKF 创建、KintaroModding 维护相应分支的 PBZModLoader。加载器单独下载，遵循其自身许可。见 [第三方说明](THIRD_PARTY.md)。
+依赖由 LKF 创建的 [PBZModLoader](https://github.com/zoneoflkf/PBZModLoader)。加载器单独下载，遵循其自身许可。见 [第三方说明](THIRD_PARTY.md)。

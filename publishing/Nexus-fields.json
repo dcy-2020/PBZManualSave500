@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "game": "Phantom Blade Zero",
   "author": "dcy2020",
-  "summary": "重要提示：涉及存档操作，请妥善备份好存档。 Raise normal manual saves from 20 to 500. Keep more milestones with the original save and load menus. Requires PBZModLoader 2.1.0.",
+  "summary": "重要提示：涉及存档操作，请妥善备份好存档。 Raise normal manual saves from 20 to 500. Keep more milestones with the original save and load menus. Requires PBZModLoader.",
   "fileName": "500 Manual Save Slots v1.0.0",
-  "fileDescription": "重要提示：涉及存档操作，请妥善备份好存档。 IMPORTANT: Back up your saves before use. Raise normal manual saves to 500. Requires PBZModLoader 2.1.0. Extract into your game root, then restart.",
+  "fileDescription": "重要提示：涉及存档操作，请妥善备份好存档。 IMPORTANT: Back up your saves before use. Raise normal manual saves to 500. Requires PBZModLoader. Extract into your game root, then restart.",
   "requiredTags": ["AI-Generated Content", "AI Media"],
-  "dependency": "https://github.com/KintaroModding/phantombladezero_pbzmodloader/releases/tag/v2.1.0",
+  "dependency": "https://www.nexusmods.com/phantombladezero/mods/113",
   "license": "MIT"
 }
