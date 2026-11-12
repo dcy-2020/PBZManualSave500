@@ -52,7 +52,7 @@ with zipfile.ZipFile(archive) as package:
 
 digest = hashlib.sha256(archive.read_bytes()).hexdigest()
 SOURCE_FILES = [
-    '.gitignore', 'CHANGELOG.md', 'LICENSE', 'package.json', 'README.md',
+    '.gitattributes', '.gitignore', 'CHANGELOG.md', 'LICENSE', 'package.json', 'README.md',
     'README.zh-CN.md', 'THIRD_PARTY.md', MOD + 'main.js',
     'publishing/Nexus-fields.json', 'publishing/Nexus-description.bbcode',
     'releases/v1.0.0.md', 'scripts/build_release.py', 'tests/mod.test.mjs',
